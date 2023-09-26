@@ -1,0 +1,208 @@
+body{
+    font-family: Arial;
+    background-image: url("../images/background.jpg");
+    color:white;
+    margin: 0;
+    margin-top: 90px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    min-height: 90.5vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header{
+    display:flex;
+    height: 60px;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    margin-top: -90px;
+    
+}
+
+.navigation div{
+    cursor:pointer;
+}
+
+.name-logo{
+    
+    flex: 1;
+    display:flex;
+    align-items: center;
+    
+}
+
+.logo-img{
+    height: 80px;
+}
+.name{
+    /* display: inline-block; */
+    margin-left: 100px;
+    font-size: 45px;
+    color:magenta;
+    font-family: 'Delicious Handrawn', cursive;
+    cursor: default;
+
+    
+}
+
+
+.navigation{
+    /* background-color: aqua; */
+    flex: 1;
+    display: flex;
+    justify-content:space-evenly;
+    font-size: 20px;
+    
+
+}
+
+.album-info{
+    display:flex;
+    margin-left:30px;
+    margin-bottom:100px;
+    cursor: default;
+    
+}
+
+.album-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-color: yellow;
+    border-width: medium;
+    border-radius: 100px;
+}
+
+
+.album-name{
+    margin-top:10px;
+    margin-left: 20px;
+    font-size: 200px;
+    
+    text-align: center;
+
+}
+
+.album-auth-year{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;  
+    cursor: pointer;
+}
+.album-auth-year:hover{
+    text-decoration: underline;
+}
+
+.album-songs{
+    font-size:20px;
+    margin-top:5px;
+    text-align: center; 
+}
+.footer{
+    bottom:0;
+    font-size: 25px;
+    display:flex;
+    justify-content:space-evenly;
+    background-color: rgb(41, 31, 31);
+    margin-top: auto;
+}
+
+.footer div{
+    cursor: pointer;
+}
+.artists-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items:center;
+    /* justify-content: space-evenly; */
+    margin-bottom: 150px;
+    width:100%;
+    line-height: 100px;
+    
+}
+
+@media(max-width:1000px){
+    
+        .artists-grid{
+    grid-template-columns: 1fr 1fr;
+
+        }
+    } 
+    .artists-grid3{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items:center;
+        /* justify-content: space-evenly; */
+        margin-bottom: 150px;
+        width:100%;
+        line-height:100px;
+        
+    }
+    
+    @media(max-width:1000px){
+        .artists-grid3{
+            grid-template-columns: 1fr 1fr;
+        }
+    } 
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+.artist{
+   
+    margin:10px 10px;
+    width: 300px;
+    transition: width 0.5s, margin-bottom 0.5s;
+    cursor:pointer;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+
+.artist:hover{
+    width: 350px;
+    margin-bottom: -50px;
+}
+
+
+.artist-img{
+    width:100%;
+    aspect-ratio: 1/1;
+    margin-bottom: 0px;
+    border-top-left-radius: 50px ;
+    border-top-right-radius: 50px ;
+
+    
+}
+
+.artist-name{
+    margin-left:10px;
+    font-size: 38px;
+    pointer-events: none;
+    text-align: center;
+}
+
+.year{
+  
+    
+    margin-left: 10px;
+    line-height: 40px;
+    text-align: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.song-number{
+    display:inline-block;
+    text-align: right;
+}
+
+

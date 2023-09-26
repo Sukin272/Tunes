@@ -1,0 +1,143 @@
+body {
+    font-family: Arial;
+    background-image: url("../images/background.jpg");
+    color: white;
+    margin: 0;
+    margin-top: 90px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 90.5vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header {
+    display: flex;
+    height: 60px;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    margin-top: -90px;
+
+}
+
+.navigation div {
+    cursor: pointer;
+}
+
+.name-logo {
+
+    flex: 1;
+    display: flex;
+    align-items: center;
+
+}
+
+.logo-img {
+    height: 80px;
+}
+
+.name {
+    /* display: inline-block; */
+    margin-left: 100px;
+    font-size: 45px;
+    color: magenta;
+    font-family: 'Delicious Handrawn', cursive;
+    cursor: default;
+
+
+}
+
+
+.navigation {
+    /* background-color: aqua; */
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+
+
+}
+
+.album-info {
+    display: flex;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    cursor: default;
+
+}
+
+.album-image {
+    width: 300px;
+    height: auto;
+    display: inline-block;
+
+}
+
+.album-name {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 80px;
+
+}
+
+.album-auth-year {
+    font-size: 20px;
+}
+
+.album-songs {
+    font-size: 20px;
+    margin-top: 5px
+}
+
+.songs {
+    font-size: 35px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    cursor: default;
+    align-items: center;
+    justify-content: center;
+}
+
+.snum {
+    width: 70px;
+}
+
+.song-name {
+    flex: 1;
+}
+
+.duration {
+    width: 80px;
+}
+
+.play-button {
+    width: 50px;
+    margin-left: 30px;
+}
+
+.play-button-img {
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+}
+
+.footer {
+    bottom: 0;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(41, 31, 31);
+    margin-top: auto;
+}
+
+.footer div {
+    cursor: pointer;
+}

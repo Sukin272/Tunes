@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Tunes</title>
+        <link rel="stylesheet" href="../static/css/spotlight.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fasthand&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap" rel="stylesheet">
+    
+    </head>
+    <body>
+        <header class="header">
+            <div class="name-logo">
+                <img class="logo-img" src="../static/images/logo.png">
+                <div class="name">Tunes</div>
+            </div>
+            <div class="navigation">
+                <div><a href="home.html" style="text-decoration: none;color:white;">Home</a></div>
+                <div><a href="artists.html" style="text-decoration: none;color:white;">Artists</a></div>
+                <div><a href="about.html" style="text-decoration: none;color:white;">About</a></div>
+                <div><a href="spotlight.html" style="text-decoration: none;color:white;"><u>Spotlight</u></a></div>
+                <div><a href="playlist.html" style="text-decoration: none;color:white;">Playlist</a></div>
+                <div><a href="search.html" style="text-decoration: none;color:white;"><img 
+                    style="width: 25px;" src="../static/images/search.png"></a></div>
+            </div>
+        </header>
+        <!--.........................................-->
+        <div class="album-name">
+            Ed Sheeran
+    <!-- <div class="album-auth-year">
+        Imagine Dragons &#x2022; 2018 
+    </div> -->
+    <div class="album-songs">
+        80 songs
+    </div>
+    </div>
+        <div class="album-info">
+                <div class="container">
+                    <div class="album-image">
+                        <img id="artist-image" src="../static/images/EdSheeran.jpg">
+                    </div> 
+                </div>
+            </div>
+            
+        </div>
+        <div class="singer">
+            Edward Christopher Sheeran MBE (born 17 February 1991) is an English singer-songwriter. Sheeran's debut album, + ("Plus"), was released in September 2011 and topped the UK Albums Chart. In 2012, Sheeran won the Brit Awards for Best British Male Solo Artist and British Breakthrough Act. A single from ×, "Thinking Out Loud", earned him the 2016 Grammy Awards for Song of the Year and Best Pop Solo Performance.
+            Sheeran has sold more than 150 million records worldwide, making him one of the world's best-selling music artists. He has 101 million RIAA-certified units in the US, and two of his albums are in the list of the best-selling albums in UK chart history. In December 2019, the Official Charts Company named him artist of the decade, with the most combined success in the UK album and singles charts in the 2010s.
+        </div>
+        <div>
+            <h1>Rate the artist:</h1>
+            <form id="rating-form">
+              <label for="artist-name" style="font-size:20px;">User Name:</label>
+              <input type="text" id="artist-name" name="artist-name" required>
+              <br><br>
+             
+              <label for="rating" style="font-size:20px;">Rating:</label>
+              <br>
+              <input type="radio" id="star-1" name="rating" value="1" required>
+              <label for="star-1">1 &#9733</label>
+              <input type="radio" id="star-2" name="rating" value="2">
+              <label for="star-2">2 &#9733</label>
+              <input type="radio" id="star-3" name="rating" value="3">
+              <label for="star-3">3 &#9733</label>
+              <input type="radio" id="star-4" name="rating" value="4">
+              <label for="star-4">4 &#9733</label>
+              <input type="radio" id="star-5" name="rating" value="5">
+              <label for="star-5">5 &#9733</label>
+              <br><br>
+              <label for="review" style="font-size:20px;">Review:</label>
+              <br>
+              <textarea id="review" name="review" required>Write a review</textarea>
+              <br><br>
+
+              <button class="submit" style="font-size:20px;">Submit</button>
+            </form>
+          </div>
+          
+          <div class="countdown">
+            
+        </div>
+
+        <div class="review-table">
+        <hr style="margin:0 450px 0 450px;border-color: gray;">
+        <div class="songs">
+            <div class="snum">
+                User name
+            </div>
+            <div class="song-name">
+                Rating
+            </div>
+            <div class="duration">
+                Review
+            </div>
+        </div>
+        <hr style="margin:0 450px 0 450px;border-color: gray;">
+        </div>
+        
+        <div style="height:100px"></div>
+        
+
+        <div class="footer">
+            <div><a href="about.html" style="text-decoration: none;color:white;">About</a></div>
+            <div style="cursor: default;">- ok_17</div>
+        </div>
+        <script src="../static/js/spotlight.js"></script>
+        <script src="../static/js/header.js"></script>
+
+    </body>
+</html>
